@@ -1,5 +1,20 @@
 # CST8917 Lab 3: Microsoft Teams Chat Content Moderation Service
 
+## Repository Structure
+
+```
+.
+├── logic-app-definition.json      # Exported Logic App workflow
+├── flowchat.jpg                  # Moderation workflow flowchart
+├── runs_history_01.png           # Logic App execution history screenshot 1
+├── runs_history_02.png           # Logic App execution history screenshot 2
+├── alert email.png               # Email notification screenshot
+├── README.md                     # This documentation
+└── .gitignore                    # Git ignore file
+```
+
+---
+
 ## Overview
 
 This project implements a **Microsoft Teams chat content moderation service** using **Azure Logic Apps**. The service monitors messages in a specified Teams channel for inappropriate content and automatically sends an email notification to an administrator when a violation is detected.
@@ -8,6 +23,7 @@ This project implements a **Microsoft Teams chat content moderation service** us
 
 ## Table of Contents
 
+- [Repository Structure](#repository-structure)
 - [Overview](#overview)
 - [Azure Configuration](#azure-configuration)
 - [Architecture Flowchart](#architecture-flowchart)
@@ -133,22 +149,5 @@ The following screenshots show the Logic App execution history when violations w
 ## Demo Video
 
 [![Watch the demo](https://img.youtube.com/vi/4qYI8gIK1Nc/0.jpg)](https://youtu.be/4qYI8gIK1Nc)
-
-**Demo Video Link:** [https://youtu.be/4qYI8gIK1Nc](https://youtu.be/4qYI8gIK1Nc)
-
----
-
-## Repository Structure
-
-```
-.
-├── logic-app-definition.json      # Exported Logic App workflow
-├── flowchat.jpg                  # Moderation workflow flowchart
-├── runs_history_01.png           # Logic App execution history screenshot 1
-├── runs_history_02.png           # Logic App execution history screenshot 2
-├── alert email.png               # Email notification screenshot
-├── README.md                     # This documentation
-└── .gitignore                    # Git ignore file
-```
 
 ---
